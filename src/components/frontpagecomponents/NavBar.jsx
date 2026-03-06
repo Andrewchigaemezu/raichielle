@@ -1,5 +1,5 @@
 import style from "./NavBar.module.css";
-import Header3 from "../../utilities/header3";
+import Header3 from "../../utilities/Header3";
 import Paragraph from "../../utilities/Paragraph";
 import user_icon from "../../assets/icons/user_icon.svg";
 import menu_icon from "../../assets/icons/menu_icon.svg";
