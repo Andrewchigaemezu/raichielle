@@ -3,7 +3,7 @@ import jacket from "../../assets/img/jacketdetail.png";
 import pdetail_big_img from "../../assets/img/pdetail_big_img.png";
 import Paragraph from "../../utilities/Paragraph";
 import Header4 from "../../utilities/Header4";
-import Header3 from "../../utilities/header3";
+import Header3 from "../../utilities/Header3";
 import Header2 from "../../utilities/Header2";
 import right_arrow from "../../assets/icons/right_arrow.svg";
 import left_arrow from "../../assets/icons/left_arrow.svg";
