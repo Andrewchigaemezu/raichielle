@@ -1,5 +1,5 @@
 import style from "./DashboardTop.module.css";
-import Header3 from "../../utilities/header3";
+import Header3 from "../../utilities/Header3";
 import SmallText from "../../utilities/SmallText";
 import notification_icon from "../../assets/icons/notification_icon.svg";
 // import markall_icon from "../../assets/icons/markall_icon.svg";
