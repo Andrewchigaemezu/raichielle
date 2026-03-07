@@ -159,6 +159,13 @@
     grid-template-columns: 1fr;
     row-gap: 5rem;
   }
+  .cart_card h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+  .cart_card {
+    padding-top: 5rem;
+  }
 }
 @media (max-width: 50em) {
 }
