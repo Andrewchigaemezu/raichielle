@@ -26,7 +26,7 @@ function CartCard() {
           <ul className={style.cart_items_cont}>
             <li>
               <Paragraph>Product</Paragraph>
-              <Paragraph>Price</Paragraph>
+              <Paragraph>Unit Price</Paragraph>
               <Paragraph>Quantity</Paragraph>
               <Paragraph>Sub Total</Paragraph>
             </li>
@@ -46,6 +46,7 @@ function CartCard() {
                       onClick={() => {
                         dispatch(cartActions.decreaseQuant(product.id));
                       }}
+                      className={style.quantity_size_btn}
                     >
                       <Header4>-</Header4>
                     </button>
@@ -54,11 +55,14 @@ function CartCard() {
                       onClick={() => {
                         dispatch(cartActions.increaseQuant(product.id));
                       }}
+                      className={style.quantity_size_btn}
                     >
                       <Header4>+</Header4>
                     </button>
                   </div>
-                  <Header4>${product.quantity * product.price}</Header4>
+                  <div className={style.subtotal_price_cont}>
+                    <Header4>${product.quantity * product.price}</Header4>
+                  </div>
                 </li>
               ))
             ) : (

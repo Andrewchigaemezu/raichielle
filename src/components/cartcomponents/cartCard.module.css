@@ -89,6 +89,9 @@
   /* color: blue; */
   padding-top: 0.5rem;
 }
+.quantity_size_btn {
+  color: var(--secondary_color);
+}
 
 .product_cart_summary {
   width: 100%;
@@ -170,6 +173,15 @@
 @media (max-width: 50em) {
 }
 @media (max-width: 44em) {
+  .subtotal_price_cont {
+    display: none;
+  }
+  .cart_items_cont li:first-child p:last-child {
+    display: none;
+  }
+  .cart_items_cont li {
+    grid-template-columns: 1fr 0.5fr 1fr;
+  }
 }
 @media (max-width: 37.5em) {
 }
