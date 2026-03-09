@@ -9,7 +9,7 @@
 }
 .menu_modal_cont {
   height: auto;
-  width: 50%;
+  width: 100%;
   background-color: var(--primary_color_dark);
   justify-self: right;
   list-style: none;
@@ -28,7 +28,7 @@
 }
 
 .menu_modal_cont li {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .menu_modal_cont li:first-child {
   justify-self: right;
