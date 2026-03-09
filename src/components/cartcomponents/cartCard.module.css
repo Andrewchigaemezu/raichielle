@@ -63,12 +63,13 @@
 }
 .product_img_text_cont p:first-child {
   font-weight: 600;
+  font-size: 1.6rem;
   margin-bottom: 0.5rem;
 }
 
 .quantity_select_cont {
   width: 70%;
-  height: 50%;
+  height: 4rem;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -192,6 +193,13 @@
   }
   .product_img_text_cont img {
     margin-bottom: 0.2rem;
+  }
+  .cart_items_cont li:not(:first-child) {
+    padding: 1rem 0;
+    padding-left: 1rem;
+  }
+  .product_img_text_cont p:first-child {
+    margin-bottom: 0.1rem;
   }
 }
 @media (max-width: 23.5em) {
