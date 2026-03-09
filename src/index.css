@@ -36,9 +36,6 @@ html {
   }
 }
 @media (max-width: 44em) {
-  html {
-    font-size: 50%;
-  }
 }
 @media (max-width: 23.5em) {
 }
