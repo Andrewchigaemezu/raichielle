@@ -62,7 +62,7 @@
   width: 80%;
 }
 .product_img_text_cont p:first-child {
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
@@ -142,7 +142,7 @@
 }
 .empty_cart_message_cont p {
   margin-top: 1rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 .empty_cart_message_cont img {
   margin-bottom: 2rem;
