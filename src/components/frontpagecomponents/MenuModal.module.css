@@ -8,14 +8,16 @@
   right: 0;
 }
 .menu_modal_cont {
-  height: 50%;
+  height: auto;
   width: 50%;
   background-color: var(--primary_color_dark);
   justify-self: right;
   list-style: none;
   display: grid;
-  justify-items: center;
-  padding-top: 5rem;
+  /* justify-items: center; */
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
 }
 
 .modal_btn:link,
