@@ -62,7 +62,7 @@
   width: 80%;
 }
 .product_img_text_cont p:first-child {
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
@@ -184,6 +184,15 @@
   }
 }
 @media (max-width: 37.5em) {
+  .product_img_text_cont {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    /* justify-content: center; */
+    text-align: center;
+  }
+  .product_img_text_cont img {
+    margin-bottom: 0.2rem;
+  }
 }
 @media (max-width: 23.5em) {
 }
